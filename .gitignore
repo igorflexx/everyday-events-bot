@@ -1,0 +1,8 @@
+.env
+bot_token.txt
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/*.db
+data/*.sqlite3
