@@ -25,15 +25,15 @@ def load_config() -> Config:
         bot_token = os.getenv("BOT_TOKEN", "").strip()
     if not bot_token:
         raise RuntimeError(
-            "BOT_TOKEN is not set. Fill in /Users/a1/Projects/everyday-events-bot/.env "
-            "or /Users/a1/Projects/everyday-events-bot/bot_token.txt."
+            "BOT_TOKEN is not set. Fill in .env at the project root "
+            "or create bot_token.txt next to it."
         )
     try:
         validate_token(bot_token)
     except TokenValidationError as exc:
         raise RuntimeError(
             "Telegram token is invalid. Check the value in "
-            "/Users/a1/Projects/everyday-events-bot/bot_token.txt or .env. "
+            "bot_token.txt or .env. "
             "The token must be copied exactly from @BotFather, without extra spaces or quotes."
         ) from exc
 

@@ -32,17 +32,21 @@
 
 1. Создайте бота через `@BotFather` и получите токен.
 2. Вставьте токен в `.env` или создайте `bot_token.txt` по примеру `bot_token.example.txt`.
-4. Запустите:
+3. Перейдите в папку проекта и запустите бота из терминала:
 
 ```bash
-cd /Users/a1/Projects/everyday-events-bot
+cd /path/to/everyday-events-bot
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 main.py
 ```
 
-На macOS можно просто открыть файл `run-local.command`.
+Файл `run-local.command` - это обычный bash-скрипт для терминала. Запускайте его так:
+
+```bash
+bash ./run-local.command
+```
 
 ## Основные разделы бота
 
