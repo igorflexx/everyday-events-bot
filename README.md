@@ -11,3 +11,6 @@ Telegram-бот для повседневных задач, очков, нагр
 - `bot/keyboards.py` - собирает клавиатуры и кнопки для интерфейса бота.
 - `bot/states.py` - описывает состояния диалогов для пошаговых действий пользователя.
 - `bot/config.py` - загружает токен и настройки проекта.
+- `run-local.command` - локальный запуск бота из терминала `macOS` или `Linux`.
+- `runlocalwin.cmd` - локальный запуск бота из `Windows Terminal`, `cmd` или PowerShell.
+- `runwin.cmd` - запуск бота из `Windows Terminal`, `cmd` или PowerShell.
