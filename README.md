@@ -13,4 +13,3 @@ Telegram-бот для повседневных задач, очков, нагр
 - `bot/config.py` - загружает токен и настройки проекта.
 - `run-local.command` - локальный запуск бота из терминала `macOS` или `Linux`.
 - `runlocalwin.cmd` - локальный запуск бота из `Windows Terminal`, `cmd` или PowerShell.
-- `runwin.cmd` - запуск бота из `Windows Terminal`, `cmd` или PowerShell.
